@@ -1,6 +1,4 @@
-<ul>
-  <% @cases.each do |case| %>
-    <li><%= case.title %></li>
-    <li><%= case.description %></li>
+  <% @user_cases.each do |caso| %>
+    <h4><%= caso.title %></h4>
+    <p><%= caso.description %></p>
   <% end %>
-</ul>
